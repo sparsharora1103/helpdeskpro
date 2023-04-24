@@ -1,0 +1,163 @@
+.post{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: ghostwhite;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+.post__info{
+    display: flex;
+    align-items: center;
+}
+
+.post__info > h5{
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.post__info > h5:hover {
+    text-decoration: underline;
+}
+
+.post__info > small {
+    margin-left: 10px;
+}
+
+.post__body{
+    display: flex;
+    flex-direction: column;
+}
+
+.post__body > .post__question{
+    margin-top: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: flex;
+}
+
+.post__question > .post__btnAnswer {
+    margin-left: auto;
+    outline: none;
+    border: none;
+    background-color: blue;
+    color: ghostwhite;
+    border-radius: 6px;
+    padding: 7px;
+}
+
+.post__body > .post__question > p:hover {
+    text-decoration: underline;
+}
+
+.post__footer{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.post__footer > .MuiSvgIcon-root {
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.post__footerAction {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 33px;
+    padding: 4.5px;
+    background-color: lightgray;
+    align-items: center;
+}
+
+.post__footerAction > .MuiSvgIcon-root {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.post__footerAction > .MuiSvgIcon-root:hover {
+    color: rgb(114, 25, 230);
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.post__footerLeft{
+    margin-left: auto;
+}
+
+.post__footerLeft > .MuiSvgIcon-root {
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.modal__question {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .modal__question > h1 {
+    color: rgb(114, 25, 230);
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .modal__question > p {
+    color: gray;
+    font-size: small;
+  }
+  
+  .modal__question > p > .name {
+    color: black;
+    font-weight: bold;
+  }
+  
+  .modal__answer {
+    display: flex;
+    padding-top: 20px;
+    flex: 1;
+  }
+  
+  .modal__answer > textarea {
+    width: 100%;
+    height: 200px;
+    padding: 5px;
+    font-size: 15px;
+    color: blue;
+  }
+  
+  .modal__button {
+    display: flex;
+    align-items: center;
+    margin-right: -20px;
+    border-top: 1px solid lightgray;
+  }
+  
+  .modal__button > .cancle {
+    margin-left: auto;
+    border: none;
+    margin-top: 5px;
+    outline: none;
+    color: gray;
+    font-weight: 500;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 33px;
+    cursor: pointer;
+  }
+  .modal__button > .add {
+    border: none;
+    outline: none;
+    margin-top: 5px;
+    background-color: rgb(0, 64, 255);
+    color: white;
+    font-weight: 700;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 33px;
+    cursor: pointer;
+  }

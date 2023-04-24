@@ -1,0 +1,38 @@
+.helpdeskBox {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: 1px solid lightgray;
+  background-color: ghostwhite;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+
+.helpdeskBox:hover {
+  border: 1px solid gray;
+}
+
+
+.helpdeskBox__info {
+  display: flex;
+  align-items: center;
+}
+
+.helpdeskBox__info > h5{
+  color: rgb(95, 91, 91);
+  font-weight: 300;
+  margin-left: 10px;
+}
+
+.helpdeskBox__helpdesk{
+  display: flex;
+  margin-top: 8px;
+}
+
+.helpdeskBox__helpdesk > p {
+  color:rgb(95, 91, 91);
+  font-weight: bold;
+  font-size: large;
+}
+
